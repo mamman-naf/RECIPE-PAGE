@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: rgb(181, 160, 133);
+}
+
+.cont {
+  background-color: white;
+  margin: auto;
+  padding: 1%;
+  padding-bottom: 3%;
+  border-radius: 15px;
+  width: 45%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+img {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding: 18px;
+  border-radius: 30px;
+}
+/* fonts */
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+P,
+li,
+td,
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 600 700;
+  font-style: normal;
+}
+P,
+li {
+  font-size: 1em;
+}
+/* END OF FONTS */
+h1,
+p.simple {
+  margin-left: 5%;
+  width: 89%;
+  text-align: justify;
+}
+.prep {
+  margin: 0%;
+  background-color: hsl(330, 100%, 98%);
+  width: 85%;
+  border-radius: 2%;
+  padding: 2%;
+  margin: 3%;
+  /* margin-left: 5%; */
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+ul.prp {
+  color: hsl(332, 51%, 32%);
+  margin-left: 2%;
+}
+/* margin for list items 1 by 1 */
+ul.ingredients{
+    /* margin-left: 3%; */
+}
+li {
+  list-style-position: outside;
+  padding-left: 20px;
+  text-align: justify;
+}
+h2 {
+  color: maroon;
+}
+.ingredients {
+  margin: 0%;
+  width: 82%;
+  padding: 2%;
+  margin: 5%;
+  margin-left: 4%;
+}
+ul.ing {
+  margin-left: 2%;
+  padding: 2%;
+  list-style-type: square;
+  color: maroon;
+}
+
+/* for ingredints list style type to be color */
+span {
+  color: black;
+}
+
+.instructions {
+  width: 82%;
+  margin: 0%;
+  width: 82%;
+  padding: 2%;
+  margin: 5%;
+  margin-left: 4%;
+}
+ol.tion {
+  margin-left: 2%;
+  padding: 2%;
+  color: maroon;
+  list-style-position: outside;
+}
+li {
+  padding: 4px;
+}
+.nutri {
+  margin-left: 6%;
+  width: 89%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  padding: 2%;
+  margin-bottom: 9%;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table tr td:last-child(){
+    border-collapse: collapse;
+}
+td.numb {
+  color: maroon;
+}
