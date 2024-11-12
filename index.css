@@ -1,8 +1,13 @@
 body {
+  padding: 0;
   margin: 0;
   background-color: rgb(181, 160, 133);
 }
-
+.mega {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
 .cont {
   background-color: white;
   margin: auto;
@@ -51,10 +56,10 @@ p.simple {
   margin: 0%;
   background-color: hsl(330, 100%, 98%);
   width: 85%;
-  border-radius: 2%;
+  border-radius: 3%;
   padding: 2%;
   margin: 3%;
-  /* margin-left: 5%; */
+  padding-left: 3%;
 }
 h3 {
   color: hsl(332, 51%, 32%);
@@ -62,10 +67,6 @@ h3 {
 ul.prp {
   color: hsl(332, 51%, 32%);
   margin-left: 2%;
-}
-/* margin for list items 1 by 1 */
-ul.ingredients{
-    /* margin-left: 3%; */
 }
 li {
   list-style-position: outside;
@@ -88,8 +89,6 @@ ul.ing {
   list-style-type: square;
   color: maroon;
 }
-
-/* for ingredints list style type to be color */
 span {
   color: black;
 }
@@ -125,9 +124,12 @@ td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-table tr td:last-child(){
-    border-collapse: collapse;
+table td:last-child {
+  border-collapse: collapse;
 }
 td.numb {
   color: maroon;
+}
+#rem {
+  border-bottom: none;
 }
