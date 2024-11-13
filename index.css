@@ -1,31 +1,33 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(181, 160, 133);
+  background-color: hsl(30, 54%, 90%);
 }
+/* CENTER */
 .mega {
+  min-height: 100vh;
   display: grid;
   place-items: center;
-  min-height: 100vh;
-}
-.cont {
-  background-color: white;
-  margin: auto;
-  padding: 1%;
-  padding-bottom: 3%;
-  border-radius: 15px;
-  width: 45%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.cont {
+  background-color: white;
+  padding: 25px;
+  padding-bottom: 3%;
+  border-radius: 15px;
+  /* width: 38.5vw; */
+  width: 500px;
+  min-height: 100vh;
+  
+}
 img {
-  width: 90%;
+  width: 98%;
   display: block;
   margin: auto;
-  padding: 18px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
-/* fonts */
+/* fonts FOR HEADERS */
 h1,
 h2 {
   font-family: "Young Serif", serif;
@@ -35,53 +37,33 @@ h2 {
 P,
 li,
 td,
-h3 {
+h2.prep {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400 600 700;
   font-style: normal;
 }
-P,
+p,
 li {
-  font-size: 1em;
+  width: 99%;
+  font-size: 12px;
 }
-/* END OF FONTS */
-h1,
-p.simple {
-  margin-left: 5%;
-  width: 89%;
-  text-align: justify;
-}
+/* PREPARATION SECTION */
 .prep {
-  margin: 0%;
   background-color: hsl(330, 100%, 98%);
-  width: 85%;
   border-radius: 3%;
-  padding: 2%;
-  margin: 3%;
-  padding-left: 3%;
+  padding: 7px;
 }
-h3 {
+h2.prep {
   color: hsl(332, 51%, 32%);
+  font-size: medium;
 }
 ul.prp {
   color: hsl(332, 51%, 32%);
-  margin-left: 2%;
 }
-li {
-  list-style-position: outside;
-  padding-left: 20px;
-  text-align: justify;
-}
+/* INGREDIENTS SECTION */
 h2 {
   color: maroon;
-}
-.ingredients {
-  margin: 0%;
-  width: 82%;
-  padding: 2%;
-  margin: 5%;
-  margin-left: 4%;
 }
 ul.ing {
   margin-left: 2%;
@@ -92,44 +74,28 @@ ul.ing {
 span {
   color: black;
 }
-
-.instructions {
-  width: 82%;
-  margin: 0%;
-  width: 82%;
-  padding: 2%;
-  margin: 5%;
-  margin-left: 4%;
-}
+/* INSTRUCTION SECTION */
 ol.tion {
   margin-left: 2%;
   padding: 2%;
   color: maroon;
-  list-style-position: outside;
 }
 li {
   padding: 4px;
 }
-.nutri {
-  margin-left: 6%;
-  width: 89%;
-}
+/* NUTRITION SECTION */
 table {
   border-collapse: collapse;
   width: 100%;
 }
 td {
   padding: 2%;
-  margin-bottom: 9%;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
-table td:last-child {
-  border-collapse: collapse;
-}
-td.numb {
+td:last-child {
   color: maroon;
 }
-#rem {
+td.last {
   border-bottom: none;
 }
